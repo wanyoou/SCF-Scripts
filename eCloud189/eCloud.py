@@ -14,8 +14,8 @@ logger = logging.getLogger(__name__)
 
 
 def main(*args):
-    __username = r"19139313130"
-    __password = r"QazPlm666...TYYP"
+    __username = r"YOUR PHONE NUMBER HERE"
+    __password = r"YOUR PASSWORD HERE"
     session = login(__username, __password)
     rand = str(round(time() * 1000))
     surl = f"https://api.cloud.189.cn/mkt/userSign.action?rand={rand}&clientType=TELEANDROID&version=8.6.3&model=SM-G930K"
